@@ -1,67 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-   
     <title>Nikita Kukushkin</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <header>
-        <h1>Nikita Kukushkin</h1>
-        <h3>Self-learning web developer</h3>
-        <nav></nav>
+      <div class="home-img">
+        <div class="center">
+          <h1 class="title-main">Nikita Kukushkin</h1>
+          <h3>Self-learning back-end developer</h3>
+        </div>
+      </div>
+      <nav></nav>
     </header>
     <main>
-        <section id="about">Hi, my name is Nikita</section>
-        <section id="skills">
-            <article id="hard-skills">
-                <h3>Hard Skills</h3>
-                     <ul>
-                        <li>Programming Languages
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>C#</li>
-                    <li>SQL</li>
-                    <li>JavaScript</li>
-                </ul>
-            </li>
-            <li>Git</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Command Line</li>
-            <li>Visual Studio</li>
-            <li>Visual Studio Code</li>
-            <li>Photoshop</li>
-        </ul>
-            </article>
-            <article id="soft-skills">
+      <section class="about">
+        <p>Hi, I’m Nikita. Nice to meet you!
+          <br><br>
+          I’m just a guy who is curious about  technology  and wants to grow in back-end development  and beyond!
+        </p>
+      </section>
+      <section class="skills">
+        <article id="hard-skills">
+          <div class="row">
+            <div class="column">
+              <h3>Hard Skills</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Command Line</li>
+                <li>Visual Studio</li>
+                <li>Visual Studio Code</li>
+                <li>Photoshop</li>
+              </ul>
+            </div>
+            <div class="column">
+              <article id="soft-skills">
                 <h3>Soft Skill</h3>
                 <ul>
-                    <li>Empathy</li>
-                    <li>Communication</li>
-                    <li>Teamwork</li>
-                    <li>Approachability and Helpfulness</li>
-                    <li>Patience</li>
-                    <li> Open-mindedness</li>
-                    <li>Problem solving</li>
-                    <li>Accountability</li>
-                    <li>Creativity</li>
-                    <li>Time management</li>
+                  <li>Empathy</li>
+                  <li>Communication</li>
+                  <li>Teamwork</li>
+                  <li>Approachability and Helpfulness</li>
+                  <li>Patience</li>
+                  <li> Open-mindedness</li>
+                  <li>Problem solving</li>
+                  <li>Accountability</li>
+                  <li>Creativity</li>
+                  <li>Time management</li>
                 </ul>
-            </article>
-        </section>
-        
+              </article>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="projects">
+        <div>
+          <h3>Projects</h3>
+          <p><i>Links to projects repo:</i></p>
+          <br>
+          <ul>
+            <li>
+                <a href="https://github.com/kukushkinnik/kukushkinnik.github.io">This website</li></a>
+            <li>Guessing a number game</li>
+            <li>Random quote generator</li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
-        <p>STAY CONNECTED</p>
+      <p>STAY CONNECTED</p>
+      <div class="contacts">
         <ul>
-            <li>
-                <a href="https://github.com/kukushkinnik">
-                    <img src="/static/images/icons/github.png"/>
-                </a>
-            </li>
+          <li>
+            <a href="https://github.com/kukushkinnik" target="_blank">
+            <img  class="git" src="images/icons/github.png"/>
+            </a>
+          </li>
+          <li>
+            <a href="" tagret="_blank">
+            <img class="linkedin" src="images/icons/linkedin.png">
+            </a>
+          </li>
         </ul>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

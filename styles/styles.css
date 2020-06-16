@@ -1,4 +1,88 @@
 * {
-    margin: 0;
     padding: 0;
-}
+    margin: 0;
+    font-family: 'MuseoModerno', cursive;
+  }
+  
+  .home-img {
+    background: url('../images/header.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  .center {
+    padding: 20% 0;
+    text-align: center;
+    font-size: 1.45rem;
+    color: white;
+  }
+  
+  header {}
+  
+  main {
+    background: url(../images/about.jpg) no-repeat;
+  }
+  
+  .about {
+    display: block;
+    padding: 20px 0;
+    margin: auto;
+    padding: 60px 0;
+    color: black;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .column {
+    float: right;
+    width: 50%;
+    text-align: center;
+  }
+  
+  
+  /* Clear floats after the columns */
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .projects {
+    padding: 5% 0;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    color: white;
+    background-color: #191919;
+  }
+  
+  .contacts ul li {
+    display: inline;
+  }
+  
+  .git {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .linkedin {
+    width: 55px;
+    height: 55px;
+  }
+
+
