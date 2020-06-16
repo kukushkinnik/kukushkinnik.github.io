@@ -1,1 +1,1 @@
-# Personal web-site
+# Personal website
