@@ -1,2 +1,2 @@
 # Personal website
-Will be updated whenever new technology learned
+Want to update it using React
